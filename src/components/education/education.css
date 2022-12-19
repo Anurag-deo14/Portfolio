@@ -1,0 +1,89 @@
+#education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboute__cards{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 4rem;
+    width: 50%;
+}
+
+.about__cards p{
+  font-size: 0.8rem;
+}
+.about__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: var(--transition);
+  }
+  .about__card:hover{
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+  }
+  .about__card h5{
+    font-size: 0.95rem;
+}
+
+.about__card small{
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+.education__item-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.education__item-imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.education__item-imager{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.education__item-imager img{
+  
+    width: 140px;
+    border-radius: 50%;
+}
+.education__item-image img{
+    width: 120px;
+
+    border-radius: 50%;
+}
+.education__item-imagen img{
+    width: 130px;
+    height: 140px;
+    border-radius: 50%;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--color-primary);
+}
+ @media screen and (max-width:600px) {
+    .aboute__cards{
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 4rem;
+        width: 70%;
+    }
+     
+ }
